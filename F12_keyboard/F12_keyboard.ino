@@ -1,8 +1,8 @@
 #include "DigiKeyboard.h"
 #include <Bounce.h>
 
-#define BUTTON=2
-#define LED=1
+#define BUTTON 2
+#define LED 1
 
 Bounce bouncer = Bounce(BUTTON, 40); // Create instance of Bounce class for pin BUTTON, with 40ms period
 int button_down = 0;
