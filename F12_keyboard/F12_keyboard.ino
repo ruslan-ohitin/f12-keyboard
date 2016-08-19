@@ -19,7 +19,7 @@ void loop() {
       // button down (remember about pull-up)
       button_down = 1;
       digitalWrite(LED, HIGH);
-      bouncer.rebounce(500);   // repeat fater 500ms
+      bouncer.rebounce(500);   // repeat after 500ms
     } else {                   
       // button is up
       if (button_down) {        
